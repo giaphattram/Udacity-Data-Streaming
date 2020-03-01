@@ -8,6 +8,6 @@ Compare performance metrics mentioned in question 1 to arrive at these key-value
 
 readStream:
 ###### spark.streaming.kafka.maxRatePerPartition = 300
-######spark.streaming.backpressure.enabled: true
+###### spark.streaming.backpressure.enabled: true
 writeStream:
-spark.sql.streaming.ProcessingTime: "60 seconds"
+###### spark.sql.streaming.ProcessingTime: "60 seconds"
